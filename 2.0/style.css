@@ -13,8 +13,12 @@
 /*---------------html----------------------*/
 
 body {
-    text-align: center;
     font-family: 'GillSans-Light';
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
 }
 
 footer > a:link {
@@ -36,9 +40,11 @@ footer > a:visited {
 
 h1 {
     margin: 25px;
+    text-align: center;
 }
 
-ol {
+ol,
+ul {
     list-style: none;
 }
 
@@ -60,38 +66,114 @@ a:visited {
 
 /*-------------------ids-------------------*/
 
+#main-sec {
+    color: white;
+    font-size: 20pt;
+    height: 500px;
+    background-image: url('../images/davis-4.jpg');
+    background-size: cover;
+}
+
+#main-sec > h2 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#main-sec > a {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#social-media > li {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+p {
+    text-align: center;
+}
+
 
 /*-----------------classes-----------------*/
 
-.button {
-    background-color: white;
-    padding: 15px;
-    display: inline-block;
-    border: 1px solid black;
+* {
+    box-sizing: border-box;
+}
+
+.one-whole,
+.one-fourth,
+.one-third,
+.one-half,
+.two-thirds,
+.three-fourths {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.two-thirds {
+    width: 66%;
+}
+
+.three-fourths {
+    width: 75%;
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-    margin: 10px auto 10px auto;
 }
 
 .column {
     float: left;
-    width: 50%;
-    margin-right: 30px;
 }
 
 .container {
-    width: 600px;
+    width: 955px;
     margin: auto;
 }
 
-h4 {
+.button {
     background-color: white;
-    padding: 15px;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.navigating {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
     display: inline-block;
     color: #f27441;
     border: 1px solid #f27441;
+}
+
+.category {
+    padding: 20px;
+}
+
+.apartments {
+    text-align: center;
 }
