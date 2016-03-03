@@ -1,0 +1,183 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: GillSans-Light;
+    src: url(GillSans.ttc);
+}
+
+
+/*---------------html----------------------*/
+
+body {
+    font-family: 'GillSans-Light';
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer > a:link {
+    text-decoration: none;
+    color: #00778f;
+}
+
+footer > a:hover {
+    color: #00778f;
+    text-decoration: underline;
+}
+
+footer > a:visited {
+    color: #00778f;
+}
+
+
+/*-------------------tags------------------*/
+
+h1 {
+    margin: 25px;
+    text-align: center;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h3 {
+    visibility: hidden;
+    font-size: 0pt;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+
+/*-------------------ids-------------------*/
+
+#main-sec {
+    color: white;
+    font-size: 20pt;
+    height: 500px;
+    background-image: url('../images/davis-4.jpg');
+    background-size: cover;
+}
+
+#main-sec > h2 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#main-sec > a {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#social-media > li {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+
+/*-----------------classes-----------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+.one-whole,
+.one-fourth,
+.one-third,
+.one-half,
+.two-thirds,
+.three-fourths {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.two-thirds {
+    width: 66%;
+}
+
+.three-fourths {
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.container {
+    width: 955px;
+    margin: auto;
+}
+
+.button {
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.navigating {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    color: #f27441;
+    border: 1px solid #f27441;
+}
+
+.category {
+    padding: 20px;
+}
+
+.apartments {
+    text-align: center;
+}
+
+.navig {
+    text-align: center;
+}
