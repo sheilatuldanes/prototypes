@@ -41,6 +41,7 @@ footer > a:visited {
 h1 {
     margin: 25px;
     text-align: center;
+    color: #f27441;
 }
 
 ol,
@@ -180,4 +181,11 @@ h4 {
 
 .navig {
     text-align: center;
+}
+
+.navig > a {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #f27441;
+    border: 1px solid #f27441;
 }
