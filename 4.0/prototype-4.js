@@ -6,7 +6,7 @@
 $(document).ready(function () {
     console.log('ready');
 
-    $('form').hide();
+    /*$('form').hide();
 
 
     //---------------click on categories-----------------------
@@ -38,6 +38,8 @@ $(document).ready(function () {
 
         return false;
     });
+    
+    */
 
 
 

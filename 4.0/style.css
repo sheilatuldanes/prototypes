@@ -32,6 +32,13 @@ body#searching {
     background-repeat: no-repeat;
 }
 
+body#results {
+    background-image: url('../images/results.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;
@@ -51,18 +58,17 @@ footer > a:visited {
     color: #00778f;
 }
 
+form {
+    margin-top: 10px;
+    color: #0f5e70;
+}
+
 
 /*-------------------tags------------------*/
 
 ol,
 ul {
     list-style: none;
-}
-
-h3 {
-    visibility: hidden;
-    font-size: 0pt;
-    color: white;
 }
 
 a {
@@ -87,6 +93,17 @@ nav > a:visited {
 
 nav > a:hover {
     color: #e95d5c;
+}
+
+p {
+    color: #0f5e70;
+    padding-top: 150px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 0pt;
+    visibility: hidden;
 }
 
 
@@ -132,10 +149,6 @@ nav > a:hover {
 
 #social-media > li > a:hover {
     color: #e95d5c;
-}
-
-p {
-    text-align: center;
 }
 
 
@@ -197,19 +210,44 @@ p {
 .button {
     padding: 15px 30px 15px 30px;
     display: inline-block;
-    border: 2px solid black;
+    color: #0f5e70;
+    border: 2px solid #0f5e70;
 }
 
 .navigating {
     text-align: center;
 }
 
+.navigating > a:visited {
+    color: #0f5e70;
+}
+
+.navigating > a:hover {
+    color: #6bc2db;
+    border: 2px solid #6bc2db;
+}
+
+.navigating-2 {
+    text-align: center;
+    color: #39395a;
+    margin-top: 20px;
+}
+
+.navigating-2 > a:visited {
+    color: #39395a;
+}
+
+.navigating-2 > a:hover {
+    color: white;
+    border: 2px solid white;
+}
+
 h4 {
     text-align: center;
     padding: 15px 30px 15px 30px;
     display: inline-block;
-    color: #f27441;
-    border: 2px solid #f27441;
+    color: white;
+    border: 2px solid white;
 }
 
 .category {
@@ -217,7 +255,13 @@ h4 {
 }
 
 .apartments {
+    color: #39395a;
+    padding-top: 150px;
     text-align: center;
+}
+
+.apartments > li:hover {
+    color: #f29cbc;
 }
 
 .navig {
