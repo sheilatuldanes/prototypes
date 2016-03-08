@@ -87,6 +87,10 @@ nav {
     margin-right: 10px;
 }
 
+nav a {
+    color: white;
+}
+
 nav > a:visited {
     color: white;
 }
@@ -140,6 +144,10 @@ h6 {
     margin-top: 5px;
     display: inline-block;
     margin-left: 10px;
+    color: white;
+}
+
+#social-media > li > a {
     color: white;
 }
 
