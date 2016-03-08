@@ -255,12 +255,19 @@ h4 {
 }
 
 .apartments {
-    color: #39395a;
     padding-top: 150px;
     text-align: center;
 }
 
-.apartments > li:hover {
+.apartments > li > a {
+    color: #39395a;
+}
+
+.apartments > li > a:visited {
+    color: #39395a;
+}
+
+.apartments > li > a:hover {
     color: #f29cbc;
 }
 
