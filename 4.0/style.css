@@ -13,12 +13,23 @@
 /*---------------html----------------------*/
 
 body {
-    height: 768px;
+    height: 750px;
     width: 1024px;
     font-family: 'IntroBlack';
+}
+
+body#main-page {
     background-image: url('../images/main.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+body#searching {
+    background-image: url('../images/searching.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer {
@@ -184,10 +195,9 @@ p {
 }
 
 .button {
-    background-color: white;
     padding: 15px 30px 15px 30px;
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .navigating {
