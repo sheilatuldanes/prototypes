@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DAVIS DWELLING</title>
+
+    <!--css link-->
+    <link type="text/css" href="style.css" rel="stylesheet">
+
+    <!--jQuery link-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <!--custom javascript link-->
+    <script type="text/javascript" src="prototype-final.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+
+    <!--fontAwesome link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="fullpage">
+
+        <div class="section active" id="section0" data-menuanchor="firstPage">
+            <header>
+                <nav>
+                    <a href="https://validator.w3.org/check?uri=referer" target="_blank"> HTML  </a> |
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank"> CSS</a>
+
+                </nav>
+                <ul id="social-media">
+                    <li> <a href="https://www.facebook.com/"><i class="fa  fa-facebook-square fa-2x"></i></a> </li>
+                    <li>
+                        <a href="https://twitter.com/"> <i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li> <a href="https://www.pinterest.com/"><i class="fa fa-pinterest square fa-2x"></i></a> </li>
+                </ul>
+            </header>
+
+
+            <section id="main-sec">
+                <h2>Looking for an apartment in Davis, CA? <br>We can help narrow it down for you...</h2>
+                <a href="#secondPage">FIND AN APARTMENT</a>
+            </section>
+        </div>
+
+
+
+        <div class="section" id="section1" data-menuanchor="secondPage">
+            <header>
+                <nav>
+                    <a href="https://validator.w3.org/check?uri=referer" target="_blank"> HTML  </a> |
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank"> CSS</a>
+
+                </nav>
+            </header>
+
+            <p>click all options that you'd like to to see in your apartment</p>
+
+            <section class="row container">
+                <h6> row of categories </h6>
+                <section class="column category">
+                    <h4 class="area">AREA OF DAVIS</h4>
+                    <form class="area">
+                        <input type="checkbox" name="area" value="north"> NORTH
+                        <br>
+                        <input type="checkbox" name="area" value="west"> WEST
+                        <br>
+                        <input type="checkbox" name="area" value="central"> CENTRAL / DOWNTOWN
+                        <br>
+                        <input type="checkbox" name="area" value="east"> EAST
+                        <br>
+                        <input type="checkbox" name="area" value="east"> SOUTH
+                        <br>
+                    </form>
+                </section>
+
+                <section class="column category">
+                    <h4 class="rooms">BEDROOMS &amp; BATHROOMS</h4>
+                    <form class="rooms">
+                        <input type="checkbox" name="room" value="four-bd"> 4 bedrooms
+                        <br>
+                        <input type="checkbox" name="room" value="three-bd"> 3 bedrooms
+                        <br>
+                        <input type="checkbox" name="room" value="two-bd"> 2 bedrooms
+                        <br>
+                        <input type="checkbox" name="room" value="one-bd"> 1 bedroom
+                        <br>
+                        <br>
+                        <input type="checkbox" name="bath" value="three-bth"> 3 bathrooms
+                        <br>
+                        <input type="checkbox" name="bath" value="two-bth"> 2 / 2.5 bathrooms
+                        <br>
+                        <input type="checkbox" name="bath" value="one-bth"> 1 / 1.5 bathroom
+                        <br>
+                    </form>
+                </section>
+
+                <section class="column category">
+                    <h4 class="prices">PRICES</h4>
+                    <form class="prices">
+                        <input type="checkbox" name="price" value="1000"> $0 - 1000
+                        <br>
+                        <input type="checkbox" name="price" value="1500"> $1000 - 1500
+                        <br>
+                        <input type="checkbox" name="price" value="2000"> $1500 - 2000
+                        <br>
+                        <input type="checkbox" name="price" value="2500"> $2000 - 2500
+                        <br>
+                        <input type="checkbox" name="price" value="3000"> $2500 - 3000
+                        <br>
+                        <input type="checkbox" name="price" value="3500"> $3000 - 3500
+                        <br>
+                        <input type="checkbox" name="price" value="3600"> $3500+
+                        <br>
+                        <br>
+                    </form>
+                </section>
+
+                <section class="column category">
+                    <h4 class="amenities">AMENITIES</h4>
+                    <form class="amenities">
+                        <input type="checkbox" name="amenities" value="laundry"> laundry
+                        <br>
+                        <input type="checkbox" name="amenities" value="pool"> pool &amp; spa
+                        <br>
+                        <input type="checkbox" name="amenities" value="gym"> fitness room
+                        <br>
+                        <input type="checkbox" name="amenities" value="parking"> free parking
+                        <br>
+                        <input type="checkbox" name="amenities" value="pets"> pet friendly
+                        <br>
+                        <br>
+                        <input type="checkbox" name="amenities" value="dishes"> dishwasher
+                        <br>
+                        <input type="checkbox" name="amenities" value="ac-heat"> ac / heating
+                        <br>
+                        <input type="checkbox" name="amenities" value="wifi"> internet access
+                        <br>
+                        <input type="checkbox" name="amenities" value="patio"> patio
+                        <br>
+                    </form>
+                </section>
+            </section>
+
+
+            <section class="navigating">
+                <h6> navigation buttons </h6>
+                <a class="button" href="#firstPage">BACK</a>
+                <a class="button" href="#3rdPage">SUBMIT</a>
+                <br>
+            </section>
+        </div>
+
+
+
+        <div class="section" id="section2" data-menuanchor="3rdPage">
+            <header>
+                <nav>
+                    <a href="https://validator.w3.org/check?uri=referer" target="_blank"> HTML  </a> |
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank"> CSS</a>
+
+                </nav>
+            </header>
+
+            <ol class="apartments">
+                <li class="south"><a href="http://allegredavis.com/">Allegre Apartments</a></li>
+                <li class="north"><a href="http://www.davisapartmentsforrent.com/almondwood/">Almondwood Apartments</a></li>
+                <li class="central"><a href="http://www.tandemproperties.com/communities/the-colleges-at-la-rue/">The Colleges at La Rue Apartments</a></li>
+                <li class="west"><a href="http://www.stonesfair.com/lakeshore/">Lakeshore Apartments</a></li>
+                <li class="south"><a href="http://www.thelex.biz/">Lexington Apartments</a></li>
+                <li class="north"><a href="http://www.pepperwoodapartments.com/">Pepperwood Apartments</a></li>
+                <li class="central"><a href="http://www.pinonapartments.com/">Pinon Apartments</a></li>
+                <li class="west"><a href="http://www.portagebayapts.com/">Portage Bay Apartments</a></li>
+                <li class="south"><a href="http://www.sorrento-davis.com/">Sorrento Apartments</a></li>
+                <li class="central"><a href="http://www.sycamorelanedavis.com/">Sycamore Lane Apartments</a></li>
+                <li class="south"><a href="http://www.tanglewooddavisliving.com/">Tanglewood Apartments</a></li>
+                <li class="central"><a href="http://www.universitycourt.net/">University Court Apartments</a></li>
+                <li class="east"><a href="http://www.carmelapartments.com/the-u-davis-ca">University Village</a></li>
+                <li class="central"><a href="http://www.wakeforestapts.com/">Wake Forest Apartments</a></li>
+
+
+                <li class=""></li>
+            </ol>
+
+            <section class="navigating-2">
+                <h6> going back to search </h6>
+                <a class="button" href="#secondPage">BACK</a>
+                <br>
+            </section>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
